@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Nunito;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.BMW {
+  background-color: slateblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BMW__logo {
+  font-size: 30px;
+  color: cornflowerblue;
+  padding: 25px;
+}
+
+.BMW__menu {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.BMW__menu li {
+  padding: 18px 37px;
+}
+
+.BMW__menu li:hover {
+  background-color: dimgrey;
+  border-radius: 28px;
+}
+
+.BMW__icons {
+  display: flex;
+}
+
+.BMW__icons li {
+  padding: 8px 25px;
+  list-style: none;
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+.BMW
+flex-direction: culumn;
+}
